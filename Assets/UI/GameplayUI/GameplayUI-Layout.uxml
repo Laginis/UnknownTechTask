@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/GameplayUI/GameplayUI-StyleSheet.uss?fileID=7433441132597879392&amp;guid=5226d09ad54c56a49acdf8a6545935bd&amp;type=3#GameplayUI-StyleSheet" />
+    <Style src="project://database/Assets/UI/Common/Common-StyleSheet.uss?fileID=7433441132597879392&amp;guid=aa0b927f45c65da4cb105febf5088157&amp;type=3#Common-StyleSheet" />
+    <ui:VisualElement name="Top" style="flex-grow: 0.05; flex-direction: row; flex-shrink: 1;">
+        <ui:VisualElement style="flex-direction: row; flex-shrink: 1; flex-grow: 1; height: auto;">
+            <ui:Button name="EditBtn" icon-image="project://database/Assets/GFX/Icons/edit-icon.png?fileID=21300000&amp;guid=693958e035df79c4ebe14a35729061b1&amp;type=3#edit-icon" class="sideButton" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; flex-direction: row-reverse;">
+            <ui:Button text="Confirm" name="ConfirmBtn" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Middle" style="flex-grow: 1; flex-shrink: 1; flex-direction: column;">
+        <ui:VisualElement name="AnimSlider" style="flex-grow: 1; flex-shrink: 0; align-self: flex-start; margin-left: 3px; display: none;">
+            <ui:Label text="anim&#10;speed" name="SliderLabel" style="width: 50px; height: 50px; -unity-text-align: lower-center; -unity-font-style: normal; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; color: rgb(255, 255, 255);" />
+            <ui:SliderInt value="42" high-value="100" direction="Vertical" name="Slider" class="slider" />
+            <ui:Label text="88" name="Speed" style="width: 50px; height: 50px; -unity-text-align: upper-center; -unity-font-style: normal; margin-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="EntityParams" style="flex-grow: 0; flex-shrink: 0; flex-direction: column; justify-content: flex-end; align-self: flex-start;">
+        <ui:VisualElement name="AttackRange" style="flex-grow: 1; flex-shrink: 0; flex-direction: row;">
+            <ui:VisualElement tooltip="Player Attack Range" name="AttackRangeIcon" class="icon" style="flex-grow: 0;">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/GFX/Icons/attackRange.png?fileID=21300000&amp;guid=890a75ab682cdb94b8a083edb2d955c6&amp;type=3#attackRange&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:IntegerField name="AttackRangeInput" max-length="4" hide-placeholder-on-focus="true" class="no-input-boarder inputFieldNoBoarder inputField" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MoveRange" style="flex-grow: 1; flex-shrink: 0; flex-direction: row;">
+            <ui:VisualElement tooltip="Player Move Range" name="MoveRangeIcon" class="icon" style="flex-grow: 0;">
+                <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/GFX/Icons/moveRange-icon.png?fileID=21300000&amp;guid=69ad30f3453897f4e8ab1617690df499&amp;type=3#moveRange-icon&quot;); -unity-background-scale-mode: scale-to-fit;" />
+            </ui:VisualElement>
+            <ui:IntegerField name="MoveRangeInput" max-length="4" hide-placeholder-on-focus="true" enabled="true" class="no-input-boarder inputFieldNoBoarder inputField" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

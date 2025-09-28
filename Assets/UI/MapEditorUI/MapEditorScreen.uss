@@ -1,0 +1,24 @@
+:root {
+}
+
+.inputField {
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    transition-property: scale;
+    transition-duration: 0.15s;
+    -unity-text-align: middle-center;
+    align-self: center;
+    width: 50px;
+}
+
+.inputField:hover {
+    scale: 1.05 1.05;
+    transition-property: scale;
+    transition-duration: 0.15s;
+}
+
+.inputField:focus {
+    scale: 1.05 1.05;
+}

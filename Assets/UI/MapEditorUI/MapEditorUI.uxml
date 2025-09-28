@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MapEditorUI/MapEditorScreen.uss?fileID=7433441132597879392&amp;guid=d93bef54c9a9a6b42a6eb30f80bcda11&amp;type=3#MapEditorScreen" />
+    <Style src="project://database/Assets/UI/Common/Common-StyleSheet.uss?fileID=7433441132597879392&amp;guid=aa0b927f45c65da4cb105febf5088157&amp;type=3#Common-StyleSheet" />
+    <ui:VisualElement name="TopBar" style="flex-grow: 0.05; flex-direction: row; flex-shrink: 1;">
+        <ui:VisualElement style="flex-direction: row; flex-shrink: 1; flex-grow: 1; height: auto;">
+            <ui:Label text="Grid Size" style="-unity-text-align: middle-left; font-size: 20px; -unity-font-style: bold; margin-left: 10px;" />
+            <ui:IntegerField name="WidthInput" class="inputField" />
+            <ui:IntegerField name="HeightInput" class="inputField" />
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-shrink: 1; flex-direction: row-reverse;">
+            <ui:Button text="Randomize" name="RandomizeBtn" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="SideBar" style="align-self: flex-start; flex-grow: 1; flex-shrink: 0; justify-content: center;">
+        <ui:Button name="PathBtn" icon-image="project://database/Assets/GFX/Icons/path-icon.png?fileID=21300000&amp;guid=f672dcb7904f25845b7f158a9a81cf98&amp;type=3#path-icon" class="sideButton" />
+        <ui:Button name="ObstacleBtn" icon-image="project://database/Assets/GFX/Icons/rock-icon.png?fileID=21300000&amp;guid=884b05cd05da03f48bb964858c1fb799&amp;type=3#rock-icon" class="sideButton" />
+        <ui:Button name="CoverBtn" icon-image="project://database/Assets/GFX/Icons/bushes-icon.png?fileID=21300000&amp;guid=e101d336de2d5c34395a400bf6808fa8&amp;type=3#bushes-icon" class="sideButton" />
+        <ui:Button name="EnemyBtn" icon-image="project://database/Assets/GFX/Icons/enemy-icon.png?fileID=21300000&amp;guid=28ef2a709f16bd844b0d90e02d9cd506&amp;type=3#enemy-icon" class="sideButton" />
+        <ui:Button name="PlayerBtn" icon-image="project://database/Assets/GFX/Icons/player-icon.png?fileID=21300000&amp;guid=b4fd99818592b2e48946af344843e902&amp;type=3#player-icon" class="sideButton" />
+        <ui:Button name="RemoveBtn" icon-image="project://database/Assets/GFX/Icons/remove-icon.png?fileID=21300000&amp;guid=a2ca7be99f2329944bcfda44ccfd9cea&amp;type=3#remove-icon" class="sideButton" />
+    </ui:VisualElement>
+    <ui:VisualElement name="BottomBar" style="flex-grow: 0.05; flex-shrink: 0.05; flex-direction: row-reverse;">
+        <ui:Button text="Finish" name="FinishBtn" class="button" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2cec0d3ecc44e4e9a8f3e23a4479cc, type: 3}
+  m_Name: Path Color Data SO
+  m_EditorClassIdentifier: Assembly-CSharp::PathColorDataSO
+  <ColorSetting>k__BackingField:
+  - colorType: 1
+    color: {r: 1, g: 0.4039216, b: 0.40537915, a: 1}
+  - colorType: 2
+    color: {r: 0.8, g: 0, b: 0, a: 1}
+  - colorType: 3
+    color: {r: 0.60261434, g: 1, b: 0.4039216, a: 1}
+  - colorType: 4
+    color: {r: 0.2666668, g: 0.8, b: 0, a: 1}
+  - colorType: 5
+    color: {r: 1, g: 0.6883124, b: 0.34901965, a: 1}
+  - colorType: 6
+    color: {r: 0.8, g: 0.42105266, b: 0, a: 1}

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46c78c8b8462f844b575932aaa0732d, type: 3}
+  m_Name: MapDataSO
+  m_EditorClassIdentifier: Assembly-CSharp::MapDataSO
+  <MaxWidth>k__BackingField: 50
+  <MaxHeight>k__BackingField: 50
+  <TileSettings>k__BackingField:
+  - <TileData>k__BackingField: {fileID: 11400000, guid: 6925a86de30737047b6d24a407f51c61, type: 2}
+    <SpawnWeight>k__BackingField: 0.6
+  - <TileData>k__BackingField: {fileID: 11400000, guid: 57baaf4c32e410e409940ae0d210d8a7, type: 2}
+    <SpawnWeight>k__BackingField: 0.3
+  - <TileData>k__BackingField: {fileID: 11400000, guid: ab3b9603e76be8a4ab5cb1f5a89a4bbe, type: 2}
+    <SpawnWeight>k__BackingField: 0.1
+  <EntitySettings>k__BackingField:
+  - <EntityData>k__BackingField: {fileID: 11400000, guid: 132c802d43a50954a9a350a63619fbdd, type: 2}
+  - <EntityData>k__BackingField: {fileID: 11400000, guid: 31c0cbea249ae064abb4ff57c3040fdf, type: 2}

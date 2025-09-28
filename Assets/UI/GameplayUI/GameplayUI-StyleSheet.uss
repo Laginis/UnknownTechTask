@@ -1,0 +1,66 @@
+:root {
+}
+
+.inputFieldNoBoarder > #unity-text-input {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.inputField:hover {
+    transition-duration: 1.5ms;
+    scale: 1.09 1.09 1.09;
+}
+
+.inputField:focus {
+    scale: 1.09 1.09 1.09;
+}
+
+.inputField {
+    margin-top: 5px;
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    border-left-color: rgb(149, 149, 149);
+    border-right-color: rgb(149, 149, 149);
+    border-top-color: rgb(149, 149, 149);
+    border-bottom-color: rgb(149, 149, 149);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    transition-duration: 1.5ms;
+    width: 60px;
+}
+
+.icon {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: 3px;
+    margin-right: 0;
+    margin-bottom: 3px;
+    margin-left: 3px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    background-color: rgb(188, 188, 188);
+    border-left-color: rgb(149, 149, 149);
+    border-right-color: rgb(149, 149, 149);
+    border-top-color: rgb(149, 149, 149);
+    border-bottom-color: rgb(149, 149, 149);
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+}
+
+.slider {
+    margin-top: 0;
+    margin-right: 4px;
+    margin-bottom: 0;
+    margin-left: 4px;
+    flex-grow: 1;
+}
